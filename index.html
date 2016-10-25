@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="content-language" content="zh-tw">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>Swift 起步走 - 從 Swift 基礎入門到實戰 iPhone App</title>
+<meta lang="zh-tw" name="keywords" content="iPhone,iPad,iOS,Swift,程式,軟體,開發,手機應用程式,書籍,Mac,Xcode">
+<meta lang="zh-tw" name="description" content="本書會從 Swift 最基礎的內容開始講起，熟悉後會進入物件導向及屬於 Swift 特性的部份。接著為了編寫 iPhone 應用程式所需，會介紹常用的 UIKit 元件。最後綜合所有學習到的知識，從規劃到實作完整建立三個 iPhone 應用程式。">
+<meta property="og:locale" content="zh_TW" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Swift 起步走 - 從 Swift 基礎入門到實戰 iPhone App" />
+<meta property="og:description" content="本書會從 Swift 最基礎的內容開始講起，熟悉後會進入物件導向及屬於 Swift 特性的部份。接著為了編寫 iPhone 應用程式所需，會介紹常用的 UIKit 元件。最後綜合所有學習到的知識，從規劃到實作完整建立三個 iPhone 應用程式。" />
+<meta property="og:url" content="https://hsin.tw/swift-book" />
+<meta property="og:site_name" content="Swift 起步走 - 從 Swift 基礎入門到實戰 iPhone App" />
+<meta property="article:publisher" content="https://www.facebook.com/swiftgogogo" />
+<meta property="article:author" content="https://www.facebook.com/swiftgogogo" />
+<meta property="og:image" content="https://hsin.tw/swift-book/images/swift-book-cover.jpg" />
+<meta property="og:image:width" content="915" />
+<meta property="og:image:height" content="1200" />
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+<!--[if lt IE 9]>
+<script src="js/html5shiv.min.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="style/css/normalize.css">
+<link rel="stylesheet" href="style/css/style.css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-33613475-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+    <div id="main">
+        <h1>Swift 起步走</h1>
+        <h2>從 Swift 基礎入門到實戰 iPhone App</h2>
+        <p class="description">
+            這本書會由淺入深地帶領你如何使用最新版本的 Swift 3.0 開發 iPhone 應用程式
+        </p>
+        <div id="introlist">
+            <div class="intro">
+                <div class="icon">
+                    <img src="images/rocket-ship.png" alt="rocket">
+                </div>
+                <div class="title">為什麼是 Swift</div>
+                <div class="content">
+                    <a href="https://swift.org/">Swift</a> 是由 <a href="https://www.apple.com/">Apple</a> 自 2014 年發佈的新程式語言，並在 2015 年底宣布開源，除了 Apple 的強勢推廣，在各軟體應用領域也開始蓬勃發展，後勢看漲！
+                </div>
+            </div>
+            <div class="intro">
+                <div class="icon">
+                    <img src="images/sprout.png" alt="sprout">
+                </div>
+                <div class="title">新手也可以學習嗎</div>
+                <div class="content">
+                    當然可以！這本書會從最基礎的部份開始講起，完全無程式設計經驗的新手也可以循序漸進地學習，一步步地邁進直到完成你的第一個 iPhone 應用程式。
+                </div>
+            </div>
+            <div class="intro">
+                <div class="icon">
+                    <img src="images/file.png" alt="file">
+                </div>
+                <div class="title">我想先看看內容</div>
+                <div class="content">
+                    沒問題！你可以在 <a href="https://itisjoe.gitbooks.io/swiftgo/content/">GitBook</a> 完整試閱，這邊的線上閱讀會提供本書前一版的內容，你可以先瀏覽看看是否合你的口味。
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="buy">
+            <div class="intro">
+                事不宜遲，趕緊啟程你的 iPhone 應用程式開發之旅吧！
+            </div>
+            <a class="button" href="https://leanpub.com/swiftgo" >前往 Leanpub 購買</a>
+            <a class="button" href="https://store.readmoo.com/book/210058415000101" >前往 Readmoo 購買</a>
+        </div>
+        <footer id="footer">
+            <div class="content">
+                <ul id="copyright">
+                    <li>&copy; <a href="https://hsin.tw">hsin.tw</a></li>
+                    <li>
+                        <a href="https://fb.com/swiftgogogo"><img src="images/facebook.png" alt="facebook" width="16"></a>
+                    </li>
+                    <li>
+                        resources: <a href="http://www.flaticon.com/packs/thin-line-ui" title="Flaticon">icons</a>, <a href="http://barnimages.com/iphone-and-macbook-pro/" title="Barn Images">background</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

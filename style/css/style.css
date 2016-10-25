@@ -1,0 +1,235 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+html {
+  background: url(../../images/swift-book-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  font-family: "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 200;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #dddddd;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+#main {
+  text-align: center;
+}
+h1,
+h2 {
+  color: #FB5032;
+  font-weight: inherit;
+}
+h1 {
+  margin: 0 auto;
+  padding: 25px 0px 10px 0px;
+  text-align: center;
+  font-size: 72px;
+}
+h2 {
+  text-align: center;
+  font-size: 48px;
+}
+p.description {
+  margin: 15px auto;
+  padding: 0px 15px;
+}
+.clear {
+  clear: both;
+}
+.buy .intro {
+  margin: 15px auto;
+}
+#footer {
+  padding: 20px;
+  width: 100%;
+  line-height: 200%;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (min-width: 1301px) {
+  #introlist {
+    width: 80%;
+    margin: 80px auto;
+  }
+  #introlist .intro {
+    float: left;
+    width: 33.3%;
+  }
+  #introlist .intro .icon {
+    width: 50%;
+    margin: 0 auto;
+  }
+  #introlist .intro .title {
+    font-size: 32px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 15px;
+    border-bottom: 1px solid #ffffff;
+  }
+  #introlist .intro .content {
+    width: 75%;
+    margin: 20px auto;
+    text-align: left;
+  }
+  a.button,
+  a.button:link,
+  a.button:visited {
+    background-color: #FB5032;
+    border: none;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 50px;
+    font-size: 24px;
+    border-radius: 5px;
+  }
+  a.button:hover,
+  a.button:active {
+    color: #000000;
+  }
+}
+@media screen and (max-width: 1300px) {
+  #introlist {
+    width: 90%;
+    margin: 80px auto;
+  }
+  #introlist .intro {
+    width: 90%;
+    margin: 80px auto;
+  }
+  #introlist .intro .icon {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #introlist .intro .title {
+    font-size: 32px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px;
+    border-bottom: 1px solid #ffffff;
+  }
+  #introlist .intro .content {
+    width: 85%;
+    margin: 20px auto;
+    text-align: left;
+  }
+  a.button,
+  a.button:link,
+  a.button:visited {
+    background-color: #FB5032;
+    border: none;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 80%;
+    margin: 30px auto;
+    font-size: 24px;
+    border-radius: 5px;
+  }
+  a.button:hover,
+  a.button:active {
+    color: #000000;
+  }
+}
